@@ -65,7 +65,7 @@ def help(client, message):
 
 @bot.on_message(filters.command("alive") & filters.user(Config.BOT_OWNER))
 async def live(client: Client, message: Message):
-    livemsg = await message.reply_text('`Mükəmməl İşləyirəm 😎`')
+    livemsg = await message.reply_text('`Başa düşmədime deməyindən o çıxır ki Hüsnünün botu işləməsin?😎`')
     
 #musiqi əmri#
 
@@ -116,7 +116,7 @@ def a(client, message):
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
             secmul *= 60
-        message.reply_audio(audio_file, caption=rep, parse_mode='md',quote=False, title=title, duration=dur, thumb=thumb_name, performer="@Botsinator")
+        message.reply_audio(audio_file, caption=rep, parse_mode='md',quote=False, title=title, duration=dur, thumb=thumb_name, performer="@slmmnhusnu")
         m.delete()
         bot.send_audio(chat_id=Config.PLAYLIST_ID, audio=audio_file, caption=rep, performer="@husnumustafayev", parse_mode='md', title=title, duration=dur, thumb=thumb_name)
     except Exception as e:
