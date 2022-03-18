@@ -7,8 +7,8 @@
         "Music",
         "Bot"
     ],
-    "repository": "https://github.com/ByFragment/DemonMusic-Demo-",
-    "success_url": "https://github.com/ByFragment/DemonMusic-Demo-",
+    "repository": "https://github.com/husnudu/musiqibotu",
+    "success_url": "https://github.com/husnudu/musiqibotu",
     "image": "heroku/python",
     "formation": {
         "worker": {
@@ -19,37 +19,37 @@
     "env": {
         "API_ID": {
             "description": "my.telegram.org saytından ala bilərsiniz.",
-            "value": "",
+            "value": "13223132",
             "required": true
         },
         "API_HASH": {
             "description": "my.telegram.org saytından ala bilərsiniz.",
-            "value": "",
+            "value": "123120ee6712a97e0e413425b32cee48",
             "required": true
         },
         "BOT_TOKEN": {
             "description": "@Botfather botundan ala bilərsiniz.",
-            "value": "",
+            "value": "5250517597:AAHOscLlX7zESlhEiQEg7Ffx_J-_SRKWm7I",
             "required": true
         },
         "PLAYLIST_NAME": {
             "description": "Playlist kanalının kullanıcı adını @ bu işarə olmadan yazın.",
-            "value": "",
+            "value": "salamdhjsjsk",
             "required": true
         },
         "PLAYLIST_ID": {
             "description": "Playlist kanalının ID-ni yazın.",
-            "value": "",
+            "value": "-407527950",
             "required": true
         },
         "BOT_OWNER": {
             "description": "Öz kullanıcı adınızı @ bu işarə olmadan yazın.",
-            "value": "",
+            "value": "slmmnhusnu",
             "required": true
         },
         "BOT_USERNAME": {
             "description": "Botun kullanıcı adını @ bu işarə olmadan yazın.",
-            "value": "",
+            "value": "mahniaxtarbot",
             "required": true
         }
     },
