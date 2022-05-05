@@ -7,7 +7,7 @@
         "Music",
         "Bot"
     ],
-    "repository": "https://github.com/husnudu/musiqibotu",
+    "repository": "https://github.com/bossuserb/fdfh",
     "success_url": "https://github.com/husnudu/musiqibotu",
     "image": "heroku/python",
     "formation": {
@@ -29,27 +29,27 @@
         },
         "BOT_TOKEN": {
             "description": "@Botfather botundan ala bilərsiniz.",
-            "value": "5250517597:AAHOscLlX7zESlhEiQEg7Ffx_J-_SRKWm7I",
+            "value": "5379878103:AAFsPPEvus2rN9rrmlx2IV1WVEWtSxfUnug-_SRKWm7I",
             "required": true
         },
         "PLAYLIST_NAME": {
             "description": "Playlist kanalının kullanıcı adını @ bu işarə olmadan yazın.",
-            "value": "salamdhjsjsk",
+            "value": "thehusnumedialist",
             "required": true
         },
         "PLAYLIST_ID": {
             "description": "Playlist kanalının ID-ni yazın.",
-            "value": "-407527950",
+            "value": "-1001789528784",
             "required": true
         },
         "BOT_OWNER": {
             "description": "Öz kullanıcı adınızı @ bu işarə olmadan yazın.",
-            "value": "slmmnhusnu",
+            "value": "thehusnumustafayev",
             "required": true
         },
         "BOT_USERNAME": {
             "description": "Botun kullanıcı adını @ bu işarə olmadan yazın.",
-            "value": "mahniaxtarbot",
+            "value": "thehusnumediabot",
             "required": true
         }
     },
